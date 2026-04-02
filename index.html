@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فني نجارة – تصليحات وتركيبات | صيانة احترافية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Cairo', sans-serif; scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+        .card-hover:hover { transform: translateY(-10px); transition: all 0.3s ease; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        .float-btn { position: fixed; bottom: 25px; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; color: white; z-index: 1000; transition: all 0.3s ease; box-shadow: 0 10px 15px rgba(0,0,0,0.2); }
+        .float-whatsapp { left: 25px; background-color: #25d366; }
+        .float-phone { left: 100px; background-color: #f97316; }
+        .float-btn:hover { transform: scale(1.1) rotate(5deg); }
+        .nav-link { position: relative; transition: color 0.3s; }
+        .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -5px; right: 0; background-color: #f97316; transition: width 0.3s; }
+        .nav-link:hover::after { width: 100%; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <a href="https://wa.me/966578040332" class="float-btn float-whatsapp" title="تواصل عبر واتساب"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:0578040332" class="float-btn float-phone" title="اتصال مباشر"><i class="fas fa-phone-alt"></i></a>
+
+    <nav class="bg-white/95 backdrop-blur-md shadow-lg sticky top-0 z-[1001] py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center space-x-reverse space-x-3">
+                <div class="bg-blue-800 p-2 rounded-lg text-white">
+                    <i class="fas fa-hammer text-xl"></i>
+                </div>
+                <span class="text-2xl font-black text-blue-900 tracking-tight">نجارة <span class="text-orange-500">تصليحات</span></span>
+            </div>
+
+            <ul class="hidden md:flex space-x-reverse space-x-10 font-bold text-gray-700">
+                <li><a href="#home" class="nav-link hover:text-blue-800">الرئيسية</a></li>
+                <li><a href="/about.html" class="nav-link hover:text-blue-800">من نحن</a></li>
+                <li><a href="/contact.html" class="nav-link hover:text-blue-800 text-orange-600 border border-orange-500 px-4 py-1 rounded-full">اتصل بنا</a></li>
+            </ul>
+
+            <div class="md:hidden text-2xl text-blue-900 cursor-pointer">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-gradient text-white pt-16 pb-24 md:py-32 relative overflow-hidden">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-3/5 text-right space-y-8 z-10">
+                <span class="bg-orange-500/20 text-orange-300 px-4 py-2 rounded-full text-sm font-bold tracking-widest uppercase">خدمة صيانة فورية 24/7</span>
+                <h1 class="text-4xl md:text-7xl font-black leading-[1.2]">أفضل فني نجارة <br><span class="text-orange-400">للتصليحات والتركيبات</span></h1>
+                <p class="text-lg md:text-xl text-blue-100 max-w-2xl leading-relaxed">
+                    وداعاً لمشاكل الأبواب العالقة أو الأقفال المكسورة. نحن متخصصون حصرياً في صيانة الأخشاب وإعادة الحياة لأثاثك بلمسة احترافية وسرعة فائقة.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="tel:0578040332" class="bg-orange-500 hover:bg-orange-600 px-10 py-5 rounded-xl font-black text-xl shadow-2xl transition-all hover:-translate-y-1"><i class="fas fa-phone-alt ml-3"></i> اتصل الآن</a>
+                    <a href="https://wa.me/966578040332" class="bg-white text-blue-900 hover:bg-gray-100 px-10 py-5 rounded-xl font-black text-xl shadow-2xl transition-all hover:-translate-y-1"><i class="fab fa-whatsapp ml-3"></i> واتساب</a>
+                </div>
+            </div>
+            <div class="md:w-2/5 relative">
+                <div class="absolute -top-10 -right-10 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl"></div>
+                <img src="1.jpg" alt="صيانة نجارة" class="rounded-[2rem] shadow-2xl border-4 border-white/20 transform rotate-2 hover:rotate-0 transition duration-500">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-black text-blue-900 mb-4">خدمات الصيانة والتركيب</h2>
+                <p class="text-gray-500 text-lg max-w-2xl mx-auto">نركز كل مهاراتنا في الإصلاح والتركيب لنقدم لك جودة لا تضاهى في أسرع وقت ممكن.</p>
+                <div class="w-20 h-1.5 bg-orange-500 mx-auto mt-6 rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-50 p-10 rounded-3xl card-hover border border-gray-100 text-center relative overflow-hidden group">
+                    <div class="bg-blue-100 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-600 transition-colors">
+                        <i class="fas fa-door-closed text-3xl text-blue-800 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-900">تصليح الأبواب</h3>
+                    <p class="text-gray-600 leading-relaxed italic">حل مشاكل احتكاك الأبواب بالبلاط، استعدال القوائم المائلة، وتجديد مفاصل الأبواب المتهالكة.</p>
+                </div>
+
+                <div class="bg-gray-50 p-10 rounded-3xl card-hover border border-gray-100 text-center relative overflow-hidden group">
+                    <div class="bg-orange-100 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-600 transition-colors">
+                        <i class="fas fa-key text-3xl text-orange-600 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-900">تركيب الأقفال</h3>
+                    <p class="text-gray-600 leading-relaxed italic">تركيب وصيانة أحدث الأقفال الذكية (Smart Locks) والكوالين التقليدية بمهارة تضمن أمان منزلك.</p>
+                </div>
+
+                <div class="bg-gray-50 p-10 rounded-3xl card-hover border border-gray-100 text-center relative overflow-hidden group">
+                    <div class="bg-blue-100 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-600 transition-colors">
+                        <i class="fas fa-unlock-alt text-3xl text-blue-800 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-900">فتح الأبواب</h3>
+                    <p class="text-gray-600 leading-relaxed italic">خدمة طوارئ احترافية لفتح الأبواب المغلقة عند ضياع المفاتيح بأساليب تحافظ على سلامة الخشب تماماً.</p>
+                </div>
+
+                <div class="bg-gray-50 p-10 rounded-3xl card-hover border border-gray-100 text-center relative overflow-hidden group">
+                    <div class="bg-orange-100 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-600 transition-colors">
+                        <i class="fas fa-tools text-3xl text-orange-600 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-900">صيانة الأثاث</h3>
+                    <p class="text-gray-600 leading-relaxed italic">إصلاح سحابات الأدراج، تركيب مفصلات الدواليب المكسورة، وتثبيت الأثاث الخشبي المترهل.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-blue-900 text-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2 relative">
+                    <img src="2.jpg" alt="خبرة النجارة" class="rounded-3xl shadow-2xl relative z-10">
+                    <div class="absolute -bottom-10 -left-10 bg-orange-500 p-8 rounded-2xl z-20 shadow-xl">
+                        <span class="text-5xl font-black block">15+</span>
+                        <span class="text-sm font-bold uppercase tracking-wider">سنة من الخبرة الميدانية</span>
+                    </div>
+                </div>
+                <div class="md:w-1/2 space-y-8">
+                    <h2 class="text-4xl font-black">لماذا يثق بنا العملاء في <br>أعمال الصيانة؟</h2>
+                    <div class="space-y-6">
+                        <div class="flex gap-6 items-start">
+                            <div class="bg-blue-800 p-4 rounded-xl text-orange-400"><i class="fas fa-shipping-fast text-2xl"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">سرعة الاستجابة</h4>
+                                <p class="text-blue-200">ندرك أن مشاكل الأبواب والأقفال هي حالات طوارئ، لذا نصل إليك في وقت قياسي.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div class="bg-blue-800 p-4 rounded-xl text-orange-400"><i class="fas fa-award text-2xl"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">إتقان فني تخصصي</h4>
+                                <p class="text-blue-200">نحن لا نقوم بالتفصيل، بل نركز طاقتنا في "فن الإصلاح" لنعيد القطعة أفضل مما كانت.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div class="bg-blue-800 p-4 rounded-xl text-orange-400"><i class="fas fa-headset text-2xl"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">دعم فني 24/7</h4>
+                                <p class="text-blue-200">فريقنا متاح دائماً للرد على استفساراتكم وتقديم المساعدة في أي وقت من اليوم.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-blue-900">شاهد جودة أعمالنا</h2>
+                <div class="w-16 h-1 bg-orange-500 mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="group relative overflow-hidden rounded-2xl h-80 shadow-lg">
+                    <img src="1.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-6">
+                        <span class="text-white font-bold">صيانة أبواب داخلية</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-80 shadow-lg">
+                    <img src="2.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-6">
+                        <span class="text-white font-bold">تركيب أقفال ذكية</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-80 shadow-lg">
+                    <img src="3.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-6">
+                        <span class="text-white font-bold">إصلاح مفصلات دواليب</span>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-80 shadow-lg">
+                    <img src="4.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-6">
+                        <span class="text-white font-bold">معالجة أخشاب الأثاث</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-gray-50 border-y border-gray-200">
+        <div class="container mx-auto px-6 max-w-4xl text-right">
+            <h2 class="text-4xl font-black text-blue-900 mb-10 text-center italic leading-tight">شغفنا هو إعادة المتانة <br>والجمال لأثاثك الخشبي</h2>
+            
+            <div class="prose prose-xl prose-blue text-gray-700 leading-[2] space-y-8">
+                <p>
+                    مرحباً بكم في منصتنا المتخصصة، حيث تلتقي الخبرة الفنية العميقة مع الأدوات المتطورة لتقديم أرقى خدمات **صيانة وتركيبات النجارة**. نحن لسنا مجرد ورشة نجارة تقليدية؛ بل نحن فريق يرى في الصيانة "فناً قائم بحد ذاته". لقد لاحظنا أن الكثيرين يجدون صعوبة في العثور على فني نجار يقبل بمهام التصليح الصغيرة أو التركيبات الدقيقة، فكان قرارنا بالتخصص الكامل في هذا المجال.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8 my-12">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border-r-4 border-orange-500">
+                        <h5 class="text-blue-900 font-black mb-3">رؤيتنا</h5>
+                        <p class="text-sm italic">أن نكون الوجهة الأولى لكل من يبحث عن الأمان والاحترافية في صيانة الأبواب والأثاث دون الحاجة لشراء قطع جديدة.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border-r-4 border-blue-800">
+                        <h5 class="text-blue-900 font-black mb-3">مهمتنا</h5>
+                        <p class="text-sm italic">توفير خدمة صيانة منزلية فورية تعتمد على الصدق، الأمانة، والنتائج طويلة الأمد التي ترضي عملائنا.</p>
+                    </div>
+                </div>
+                <p>
+                    نحن نؤمن تماماً أن "الوقاية خير من العلاج"، لذا فإن تدخلنا السريع في إصلاح مفصلة باب أو تزييت قفل قد يحمي منزلك من مشاكل أكبر مستقبلاً. **نحن لا نقوم بتفصيل غرف النوم أو المطابخ الجديدة**، بل نكرس وقتنا لتحسين ما تملكه بالفعل. إن خبرتنا في التعامل مع مختلف أنواع الأخشاب (الزان، السويدي، المارنتي) تجعلنا قادرين على تشخيص المشكلة في دقائق معدودة وتقديم الحل الأمثل.
+                </p>
+                <p>
+                    في "فني نجارة – تصليحات وتركيبات"، نحن ندرك تماماً قيمة الوقت بالنسبة للعميل. لذلك، حرصنا على تجهيز سيارات الخدمة لدينا بكافة المعدات اللازمة وقطع الغيار الأصلية من أقفال ومفصلات ومقابض، لنضمن أن عملية الإصلاح تتم غالباً في زيارة واحدة فقط.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-black text-center text-blue-900 mb-16 underline decoration-orange-500 decoration-4 underline-offset-8">آراء من نعتز بخدمتهم</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="p-10 rounded-3xl bg-gray-50 border border-gray-100 relative">
+                    <i class="fas fa-quote-right absolute top-6 right-6 text-orange-200 text-4xl"></i>
+                    <p class="text-gray-600 mb-6 relative z-10 leading-relaxed italic">"الفني محترم جداً، الباب كان بيقفل بصعوبة جداً ودلوقتي بقى بيفتح بلمسة واحدة. السعر كان مناسب جداً والخدمة سريعة."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center text-white font-bold">أ</div>
+                        <span class="font-bold text-blue-900">أبو حمد</span>
+                    </div>
+                </div>
+                <div class="p-10 rounded-3xl bg-gray-50 border border-gray-100 relative">
+                    <i class="fas fa-quote-right absolute top-6 right-6 text-orange-200 text-4xl"></i>
+                    <p class="text-gray-600 mb-6 relative z-10 leading-relaxed italic">"ركبت قفل ذكي عن طريقهم، شغل مرتب ونظيف جداً وعلموني إزاي أستخدمه. أنصح بأي حد محتاج تركيب أقفال يتعامل معاهم."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold">س</div>
+                        <span class="font-bold text-blue-900">سلمان الفارس</span>
+                    </div>
+                </div>
+                <div class="p-10 rounded-3xl bg-gray-50 border border-gray-100 relative">
+                    <i class="fas fa-quote-right absolute top-6 right-6 text-orange-200 text-4xl"></i>
+                    <p class="text-gray-600 mb-6 relative z-10 leading-relaxed italic">"شكر خاص للفني اللي جالنا الفجر عشان يفتح باب الشقة بعد ما ضاع المفتاح. تعامل راقي وسرعة خيالية."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center text-white font-bold">م</div>
+                        <span class="font-bold text-blue-900">م. فهد</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-orange-500 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')]"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-black text-blue-900 mb-8 italic">هل تحتاج لمساعدة فورية الآن؟</h2>
+            <p class="text-2xl text-white mb-12 font-medium">اتصل بنا وسنصلك أينما كنت لصيانة وتركيب أثاثك</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <a href="tel:0578040332" class="bg-blue-900 text-white px-16 py-6 rounded-2xl text-3xl font-black shadow-2xl hover:scale-105 transition-all w-full md:w-auto">
+                    0578040332 <i class="fas fa-phone-alt mr-3"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-950 text-gray-400 py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 border-b border-white/10 pb-16">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="text-white text-2xl font-black mb-6">نجارة <span class="text-orange-500">تصليحات</span></div>
+                    <p class="leading-relaxed">الخيار الأول في المملكة لخدمات صيانة النجارة والتركيبات المنزلية السريعة والاحترافية.</p>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-6 text-lg">روابط هامة</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#home" class="hover:text-orange-400 transition">الصفحة الرئيسية</a></li>
+                        <li><a href="#about" class="hover:text-orange-400 transition">من نحن</a></li>
+                        <li><a href="#services" class="hover:text-orange-400 transition">خدمات الصيانة</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-6 text-lg">تواصل معنا</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3"><i class="fas fa-phone text-orange-500"></i> 0578040332</li>
+                        <li class="flex items-center gap-3"><i class="fab fa-whatsapp text-orange-500"></i> واتساب مباشر</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-clock text-orange-500"></i> خدمة 24 ساعة</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-6 text-lg">مناطق الخدمة</h3>
+                    <p class="leading-relaxed italic text-sm">نغطي كافة أحياء المدينة ونصلك فوراً عند الاتصال في حالات الطوارئ وفتح الأبواب.</p>
+                </div>
+            </div>
+            <div class="text-center pt-10 text-sm tracking-widest uppercase">
+                &copy; 2026 جميع الحقوق محفوظة | تصميم فني نجارة متخصص في الصيانة والتركيبات
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

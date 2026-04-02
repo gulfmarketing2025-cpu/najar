@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>من نحن | فني نجارة تصليحات وتركيبات</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Cairo', sans-serif; scroll-behavior: smooth; }
+        .hero-sub { background: linear-gradient(rgba(30, 58, 138, 0.9), rgba(30, 58, 138, 0.9)), url('2.jpg'); background-size: cover; background-position: center; }
+        .float-btn { position: fixed; bottom: 25px; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; color: white; z-index: 1000; transition: all 0.3s ease; box-shadow: 0 10px 15px rgba(0,0,0,0.2); }
+        .float-whatsapp { left: 20px; background-color: #25d366; }
+        .float-phone { left: 90px; background-color: #f97316; }
+        .feature-card:hover { border-right-color: #f97316; transform: translateX(-5px); transition: all 0.3s; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <a href="https://wa.me/966578040332" class="float-btn float-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:0578040332" class="float-btn float-phone"><i class="fas fa-phone-alt"></i></a>
+
+    <nav class="bg-white shadow-md sticky top-0 z-50 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center space-x-reverse space-x-2">
+                <div class="bg-blue-800 p-1.5 rounded text-white"><i class="fas fa-hammer"></i></div>
+                <span class="text-xl font-black text-blue-900">نجارة <span class="text-orange-500">تصليحات</span></span>
+            </div>
+            <ul class="hidden md:flex space-x-reverse space-x-8 font-bold text-gray-600">
+                <li><a href="index.html" class="hover:text-blue-800">الرئيسية</a></li>
+                <li><a href="about.html" class="text-blue-800 border-b-2 border-orange-500">من نحن</a></li>
+                <li><a href="contact.html" class="hover:text-blue-800">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-sub text-white py-20 text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-5xl font-black mb-4">تعرف على قصتنا وخبرتنا</h1>
+            <p class="text-orange-400 text-xl font-bold tracking-widest uppercase">نحن رواد صيانة النجارة والتركيبات</p>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img src="3.jpg" alt="فني نجارة محترف" class="rounded-3xl shadow-2xl relative z-10">
+                    <div class="absolute -top-6 -right-6 w-full h-full border-4 border-orange-500 rounded-3xl -z-0"></div>
+                </div>
+                
+                <div class="space-y-6 text-lg leading-relaxed">
+                    <h2 class="text-3xl font-black text-blue-900 mb-6">من نحن؟ ولماذا تخصصنا في "التصليحات فقط"؟</h2>
+                    <p>
+                        نحن فريق فني متخصص نمتلك خبرة تمتد لأكثر من 15 عاماً في سوق النجارة. بدأت قصتنا عندما أدركنا أن العميل غالباً ما يواجه صعوبة في العثور على "نجار محترف" يقبل بالقيام بأعمال الصيانة الصغيرة أو التركيبات الدقيقة، حيث يفضل معظم النجارين التركيز على تفصيل الأثاث الجديد والغرف الكاملة.
+                    </p>
+                    <p class="font-bold text-blue-800">
+                        من هنا، قررنا أن نكون "أخصائيي صيانة" وليس مجرد نجارين عامين.
+                    </p>
+                    <p>
+                        لقد كرسنا كل طاقتنا، ومعداتنا، وخبرتنا الفنية لخدمة هدف واحد: **إطالة عمر أثاثك الخشبي وحل مشكلات الأبواب والأقفال في أسرع وقت ممكن وبأعلى جودة.** نحن نؤمن أن الباب الذي لا يغلق جيداً أو القفل المعطل يمثل عائقاً ليومك وأمانك، ولذلك نحن هنا لتقديم الحل الفوري.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-blue-900">فلسفة العمل لدينا</h2>
+                <div class="w-20 h-1 bg-orange-500 mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-2xl shadow-sm border-r-4 border-blue-900 feature-card">
+                    <i class="fas fa-bullseye text-4xl text-orange-500 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">تخصصنا هو قوتنا</h3>
+                    <p class="text-gray-600 italic">بما أننا لا نشغل أنفسنا بتفصيل الأثاث الجديد، فإننا نوفر كل وقتنا لاستقبال طلبات الصيانة الطارئة والتركيبات بدقة متناهية لا تتوفر عند غيرنا.</p>
+                </div>
+
+                <div class="bg-white p-10 rounded-2xl shadow-sm border-r-4 border-blue-900 feature-card">
+                    <i class="fas fa-shield-alt text-4xl text-orange-500 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">الأمان أولاً</h3>
+                    <p class="text-gray-600 italic">نحن نتعامل مع أقفال أبوابكم ومداخل منازلكم، لذا نضع الأمانة والمصداقية كأولوية قصوى. الفنيين لدينا يتمتعون بسمعة طيبة وسجل مهني مشرف.</p>
+                </div>
+
+                <div class="bg-white p-10 rounded-2xl shadow-sm border-r-4 border-blue-900 feature-card">
+                    <i class="fas fa-magic text-4xl text-orange-500 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">حلول ذكية</h3>
+                    <p class="text-gray-600 italic">نستخدم أحدث الأدوات التي تساعدنا على فتح الأبواب المغلقة أو تركيب الأقفال الذكية دون التسبب في أي خدوش أو تلف لجمالية الخشب.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="container mx-auto px-6 text-center max-w-3xl">
+            <div class="bg-orange-100 p-12 rounded-[3rem] border-2 border-dashed border-orange-500">
+                <i class="fas fa-ban text-5xl text-orange-600 mb-6"></i>
+                <h2 class="text-3xl font-black text-blue-900 mb-6">تزامنا الصارم: لا تفصيل.. لا تصنيع!</h2>
+                <p class="text-lg leading-relaxed text-gray-700">
+                    نكرر دائماً لعملائنا الكرام: **نحن لا نستقبل طلبات تفصيل غرف النوم، المطابخ، أو الكنب.** <br><br>
+                    هذا التخصص هو ما يجعلنا متميزين؛ فنحن نوجه كل مهاراتنا في صيانة الأبواب، تبديل الأقفال، إصلاح الكوالين، وتركيب المفصلات. عندما تطلبنا، فأنت تطلب خبيراً متخصصاً في "حل المشكلات الفنية" وليس نجاراً يبحث عن مشاريع تصنيع كبرى.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-blue-900 text-white text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-black mb-8 underline decoration-orange-500 decoration-4 underline-offset-8">هل لديك أثاث يحتاج إلى إصلاح فوراً؟</h2>
+            <p class="text-xl mb-10 opacity-90">نحن متواجدون لخدمتك على مدار الساعة في كافة أعمال الصيانة والتركيب.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="tel:0578040332" class="bg-orange-500 hover:bg-orange-600 px-12 py-5 rounded-full font-black text-2xl transition shadow-xl">اتصل بنا: 0578040332</a>
+                <a href="https://wa.me/966578040332" class="bg-white text-blue-900 hover:bg-gray-100 px-12 py-5 rounded-full font-black text-2xl transition shadow-xl">راسلنا واتساب</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-10 border-t border-gray-800">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-4 text-white font-bold">فني نجارة – متخصصون في التصليحات والتركيبات فقط</p>
+            <p class="text-sm">جميع الحقوق محفوظة &copy; 2026</p>
+        </div>
+    </footer>
+
+</body>
+</html>
